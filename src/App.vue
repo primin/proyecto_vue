@@ -1,17 +1,32 @@
 <template>
-  <nav>
+  <!--<nav>
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
-  </nav>
+  </nav>-->
+  <Menu></Menu>
   <router-view/>
 </template>
 
+<!-- Add Jorge Candia -->
+<script>
+import Menu from '@/components/Menu.vue'
+export default {
+    name: 'menu',
+    props: {
+        msg: String
+    },
+    components: {
+      Menu
+    }
+}
+</script>
+<!-- End Add Jorge Candia -->
 <style lang="scss">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
+  /*text-align: center;*/
   color: #2c3e50;
 }
 

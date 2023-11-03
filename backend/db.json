@@ -1,0 +1,82 @@
+{
+  "categorias": [
+    {
+      "id": 1,
+      "name": "Computadora"
+    },
+    {
+      "name": "Masas",
+      "id": 2
+    },
+    {
+      "name": "Juguetes",
+      "id": 3
+    },
+    {
+      "name": "Lavadora",
+      "id": 4
+    },
+    {
+      "name": "Cocinas",
+      "id": 5
+    }
+  ],
+  "Products": [
+    {
+      "id": 1,
+      "name": "Pensi",
+      "price": 11,
+      "categoryId": 1
+    }
+  ],
+  "areas": [
+    {
+      "id": 1,
+      "nombredepartamento": "Finanzas",
+      "nombreEncargado": "José Linares Mujica",
+      "cantidadFuncionarios": "5"
+    },
+    {
+      "name": null,
+      "nombredepartamento": "Sistemas",
+      "nombreEncargado": "Juan Pérez",
+      "cantidadFuncionarios": "10",
+      "id": 2
+    },
+    {
+      "name": null,
+      "nombredepartamento": "Recursos Humanos",
+      "nombreEncargado": "Juan Gabriel Peralta",
+      "cantidadFuncionarios": "10",
+      "id": 3
+    }
+  ],
+  "activos": [
+    {
+      "id": 1,
+      "tipoActivo": "Computadora",
+      "marca": "HP",
+      "modelo": "Pavilion 360",
+      "estado": "Nuevo",
+      "areaId": 1
+    },
+    {
+      "name": null,
+      "tipoActivo": "Cocina",
+      "marca": "Samsung",
+      "modelo": "Modelo avs",
+      "estado": "Usado",
+      "areaId": "1",
+      "id": 2
+    },
+    {
+      "name": null,
+      "tipoActivo": "Heladera",
+      "marca": "LG",
+      "modelo": "244",
+      "estado": "Nuevo",
+      "areaId": "1",
+      "id": 3
+    }
+  ]
+}
